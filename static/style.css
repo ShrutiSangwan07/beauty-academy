@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar section */
+#navbar {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar h1 a {
+    color: darkgoldenrod;
+    margin-left: 76px;
+    font-size: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navbar p {
+    color: #ecbc46;
+    margin-top: 83px;
+    margin-left: -103px;
+    font-size: 21px;
+}
+
+/* home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -128px;
+}
+
+
+img {
+    width: 100%;
+    height: 615px;
+}
+
+/* intro and form section */
+#intro {
+    height: 600px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro .left {
+    width: 30%;
+    height: 515px;
+}
+
+.left h1 {
+    color: darkgoldenrod;
+    position: relative;
+    top: 146px;
+    left: 96px;
+    width: 264px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.left p {
+    color: darkgoldenrod;
+    font-size: 26px;
+    top: 159px;
+    position: relative;
+    width: 249px;
+    left: 42px;
+}
+
+.left .list {
+    color: darkgoldenrod;
+    position: relative;
+    top: 166px;
+    left: 123px;
+}
+
+#intro .right {
+    width: 30%;
+    position: relative;
+    right: 0px;
+    height: 515px;
+}
+
+.right h1 {
+    color: darkgoldenrod;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: .1rem;
+}
+
+.right p {
+    color: darkgoldenrod;
+    font-size: 21px;
+    margin-bottom: 1rem;
+    margin-left: 3px;
+}
+
+.right .container {
+    top: 74px;
+    position: relative;
+    padding: 0px 40px;
+}
+
+form #formgroup input {
+    padding: 0 12px;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 15px;
+    color: #6A6A6A;
+    margin-bottom: 1rem;
+}
+
+form label #prefix,
+#Location {
+    padding: 0 12px;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 15px;
+    color: #6A6A6A;
+    margin-bottom: 1rem;
+    width: 208px;
+}
+
+.right .container .btn {
+    width: 111px;
+    cursor: pointer;
+    border: navajowhite;
+    background: darkgoldenrod;
+    color: cornsilk;
+    padding: 8px 15px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+
+.cover {
+    background-image: url("../static/img/tying-hair.jpg");
+    height: 283px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
+    position: relative;
+}
+
+.cover .banner {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
+.cover .banner p {
+    color: #ecbc46;
+    font-size: 34px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* courses */
+.courses .program h1 {
+    font-weight: 800;
+    font-size: 49px;
+    color: darkgoldenrod;
+    line-height: 1.5;
+    margin-left: 217px;
+    margin-top: 70px;
+}
+
+.courses .program p {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #ecbc46;
+    line-height: 1.5;
+    margin-left: 217px;
+}
+
+.courses .offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 39px;
+}
+
+/* beginner course */
+.offers .beginner-level {
+    display: grid;
+    width: 50%;
+    border-right: 2px dotted darkgoldenrod;
+}
+
+.beginner-level h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: darkgoldenrod;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.beginner-level button {
+    color: #ecbc46;
+    background-color: darkgoldenrod;
+    margin-left: 223px;
+    margin-right: 28px;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.beginner-level .dropdown-content p,ul {
+    text-align:left;
+    font-size: 24px;
+    margin-left: 246px;
+    padding-bottom: 10px;
+    color: #ecbc46;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.beginner-level .dropdown-content h1{
+    text-align:left;
+    font-size: 26px;
+    margin-left: 239px;
+    padding-bottom: 10px;
+    color: darkgoldenrod;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+
+/* Advance course */
+.offers .advanced-level {
+    display: grid;
+    width: 50%;
+    border-left: 2px dotted darkgoldenrod;
+}
+
+.advanced-level h1 {
+    text-align: left;
+    margin-left: 29px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: darkgoldenrod;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.advanced-level .dropdown-content h1{
+    text-align:left;
+    font-size: 26px;
+    margin-left: 46px;
+    padding-bottom: 10px;
+    color: darkgoldenrod;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.advanced-level .dropdown-content ul, p {
+    text-align:left;
+    font-size: 24px;
+    margin-left: 53px;
+    padding-bottom: 10px;
+    color: #ecbc46;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.advanced-level button {
+    color: #ecbc46;
+    background-color: darkgoldenrod;
+    margin-left: 29px;
+    margin-right: 215px;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+/* footer */
+.footer{
+    height: 41px;
+    width: auto;
+    text-align: center;
+    background-color: cornsilk;
+    padding-top: 11px;
+}
+span{
+    color: darkgoldenrod;
+    font-size: 23px;
+  
+}

@@ -1,0 +1,240 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+  
+    nav#navbar 
+        h1 #[a(href="index.pug") Beauty] 
+        p Acadmey 
+
+    section#home 
+     img(src="../static/img/woman.jpg", alt="img.com")
+    
+    section#intro 
+      div.left 
+        h1 Be A Highly Paid Makeup Artist
+        p With The Best Makeup Academy
+          li.list Flexible Schedule Options
+          li.list Small Class Sizes
+          li.list Multimedia Learning Materials
+          li.list Advanced Certification Programs
+      div.right 
+       div.container
+        h1 FILL THE FORM
+        p For A Quick Call Back
+        form(action="/" method="post")
+          label(for='prefix')
+              select#prefix(name='prefix')
+               option(value='Mr.') Mr.
+               option(value='Ms.') Ms.
+               option(value='Mrs.') Mrs.
+          div#formgroup 
+           input(type="text" name="name" placeholder="Name")
+          div#formgroup
+           input(type="email" name="email" placeholder="Email Address")
+          div#formgroup
+           input(type="text" name="phone"  placeholder="10 Digit Mobile No" minlength="10" maxlength="10" required="")
+          label(for='Location')
+              select#Location(name='Location')
+               option(value='Select A Location') Select A Location
+               option(value='Noida') Noida
+               option(value='Gurgaon') Gurgaon
+               option(value='Meerut') Meerut 
+               option(value='Chandigarh') Chandigarh
+               
+        button.btn Submit  
+
+    section.cover
+      div.banner
+        p Turn your passion into a glamourous career.
+        p Join the make up training institute that offers the best paying job opportunities!
+		
+    section.courses 
+      div.program
+        h1 Makeup Courses Offered
+        p Makeup Artistry Program Offered By Beauty Academy
+      div.offers 
+        div.beginner-level
+          h1 Beginner-level course
+          button#btn-beginner Certificate Course in Beginner's Makeup
+          div#dropdownContent-beginner.dropdown-content.hidden
+            h1 Duration:
+            p 1 Month (45Hrs.)
+            h1 No of Days:
+            p 15 Days (MWF)
+            h1 Course Content:
+            ul.course-details
+              li History of makeup
+              li Infrastructure of makeup room
+              li Brush Theory
+              li Tools of Makeup
+              li Colour Theory
+              li Corrective Makeup
+              li Tips and Tricks of flawless base
+              li How to achieve fuller brows
+              li Usage of colour contact lenses
+              li Social media handling
+              li Persona makeup
+              li Lounge party makeup
+              li PRE wedding shoot makeup
+              li Bride to be makeup look
+
+          button#btn-complete Complete Makeup Artist course
+          div#dropdownContent-complete.dropdown-content.hidden
+            h1 Duration:
+            p 2 Months 11 Days (99 hours)
+            h1 No of Days:
+            p 33 Days
+            h1 Course Content:
+            ul.course-details
+              li Comprehensive modules
+              li Personalized learning approach
+              li Classroom teaching + practicals
+              li Theory assessment
+              li Free of cost courseware included
+              li Various Case Studies and Risk management
+              li Placement support
+              li Beauty Academy Certification
+
+          button#btn-airbrush Certificate in Airbrush Makeup Artistry
+          div#dropdownContent-airbrush.dropdown-content.hidden
+            h1 Duration:
+            p 1 Month (45Hrs.)
+            h1 No of Days:
+            p 15 Days (MWF)
+            h1 Course Content:
+            ul.course-details
+              li History of makeup
+              li Infrastructure of makeup room
+              li Brush Theory
+              li Tools of Makeup
+              li Colour Theory
+              li Corrective Makeup
+              li Tips and Tricks of flawless base
+              li How to achieve fuller brows
+              li Usage of colour contact lenses
+              li Social media handling
+              li Persona makeup
+              li Lounge party makeup
+              li PRE wedding shoot makeup
+              li Bride to be makeup look
+
+          button#btn-semipermanent Certificate in Semi Permanent Makeup
+          div#dropdownContent-semipermanent.dropdown-content.hidden
+            h1 Duration:
+            p 1 Month (45Hrs.)
+            h1 No of Days:
+            p 15 Days (MWF)
+            h1 Course Content:
+            ul.course-details
+              li History of makeup
+              li Infrastructure of makeup room
+              li Brush Theory
+              li Tools of Makeup
+              li Colour Theory
+              li Corrective Makeup
+              li Tips and Tricks of flawless base
+              li How to achieve fuller brows
+              li Usage of colour contact lenses
+              li Social media handling
+              li Persona makeup
+              li Lounge party makeup
+              li PRE wedding shoot makeup
+              li Bride to be makeup look
+        div.advanced-level
+          h1 Advanced-level courses
+          button#btn-specialeffect Special Effect Makeup Artist Program
+          div#dropdownContent-specialeffect.dropdown-content.hidden
+            h1 Duration:
+            p 1 Month (45Hrs.)
+            h1 No of Days:
+            p 15 Days (MWF)
+            h1 Course Content:
+            ul.course-details
+              li History of makeup
+              li Infrastructure of makeup room
+              li Brush Theory
+              li Tools of Makeup
+              li Colour Theory
+              li Corrective Makeup
+              li Tips and Tricks of flawless base
+              li How to achieve fuller brows
+              li Usage of colour contact lenses
+              li Social media handling
+              li Persona makeup
+              li Lounge party makeup
+              li PRE wedding shoot makeup
+              li Bride to be makeup look
+
+          button#btn-mediamakeup International Certificate in Media Makeup
+          div#dropdownContent-mediamakeup.dropdown-content.hidden
+            h1 Duration:
+            p 1 Month (45Hrs.)
+            h1 No of Days:
+            p 15 Days (MWF)
+            h1 Course Content:
+            ul.course-details
+              li History of makeup
+              li Infrastructure of makeup room
+              li Brush Theory
+              li Tools of Makeup
+              li Colour Theory
+              li Corrective Makeup
+              li Tips and Tricks of flawless base
+              li How to achieve fuller brows
+              li Usage of colour contact lenses
+              li Social media handling
+              li Persona makeup
+              li Lounge party makeup
+              li PRE wedding shoot makeup
+              li Bride to be makeup look
+
+          button#btn-global Global Makeup Artist Program
+          div#dropdownContent-global.dropdown-content.hidden
+            h1 Duration:
+            p 1 Month (45Hrs.)
+            h1 No of Days:
+            p 15 Days (MWF)
+            h1 Course Content:
+            ul.course-details
+              li History of makeup
+              li Infrastructure of makeup room
+              li Brush Theory
+              li Tools of Makeup
+              li Colour Theory
+              li Corrective Makeup
+              li Tips and Tricks of flawless base
+              li How to achieve fuller brows
+              li Usage of colour contact lenses
+              li Social media handling
+              li Persona makeup
+              li Lounge party makeup
+              li PRE wedding shoot makeup
+              li Bride to be makeup look
+
+          button#btn-absolute Absolute Makeup Artist Program
+          div#dropdownContent-absolute.dropdown-content.hidden
+            h1 Duration:
+            p 1 Month (45Hrs.)
+            h1 No of Days:
+            p 15 Days (MWF)
+            h1 Course Content:
+            ul.course-details
+              li Comprehensive modules
+              li Personalized learning approach
+              li Classroom teaching + practicals
+              li Theory assessment
+              li Free of cost courseware included
+              li Various Case Studies and Risk management
+              li Placement support
+              li Beauty Academy Certification
+        
+    footer 
+      div.footer
+        span Made with love by The Beauty Institute | &copy;2024</span> 
+        
+    script
+      include ../static/script.js
