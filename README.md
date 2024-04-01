@@ -13,18 +13,21 @@ Interactive Interface: Enjoy an interactive interface that allows users to disco
 How to Use:-
 
 Clone the Repository: Clone this repository to your local machine using the following command:-
+
 git clone https://github.com/ShrutiSangwan07/beauty-academy-website.git
 
 Install Dependencies: Navigate to the project directory and install dependencies using npm:-
+
 cd beauty-academy-website
 
 npm install
 
 Run the Application: Start the application using npm:-
+
 npm start
 
 Explore:-
 Open your web browser and visit http://localhost:8000 to explore the Beauty Academy website!
 
-Feedback
-This project is for practice purposes, and feedback is always welcome! Feel free to experiment, make changes, and learn from the process. Happy coding! 💄✨
+Feedback:-
+This project is for practice purposes, Feel free to experiment, submit issues, or pull requests on GitHub! make changes, and learn from the process. Happy coding! ✨
