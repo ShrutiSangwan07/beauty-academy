@@ -17,6 +17,7 @@ git clone https://github.com/ShrutiSangwan07/beauty-academy-website.git
 
 Install Dependencies: Navigate to the project directory and install dependencies using npm:-
 cd beauty-academy-website
+
 npm install
 
 Run the Application: Start the application using npm:-
