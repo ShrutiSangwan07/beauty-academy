@@ -14,7 +14,7 @@ How to Use:-
 
 Clone the Repository: Clone this repository to your local machine using the following command:-
 
-git clone https://github.com/ShrutiSangwan07/beauty-academy-website.git
+git clone https://github.com/ShrutiSangwan07/beauty-academy.git
 
 Install Dependencies: Navigate to the project directory and install dependencies using npm:-
 
